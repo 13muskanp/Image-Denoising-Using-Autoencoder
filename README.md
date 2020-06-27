@@ -69,5 +69,5 @@ This is a side-by-side comparison of the input images with added noise and the r
 
 
 ## References to study in detail about related topics
-*[Autoencoders](https://towardsdatascience.com/applied-deep-learning-part-3-autoencoders-1c083af4d798)
-*[Deep Learning](https://www.datacamp.com/community/tutorials/deep-learning-python)
+* [Autoencoders](https://towardsdatascience.com/applied-deep-learning-part-3-autoencoders-1c083af4d798)
+* [Deep Learning](https://www.datacamp.com/community/tutorials/deep-learning-python)
