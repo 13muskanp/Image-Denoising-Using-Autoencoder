@@ -13,7 +13,7 @@ Building and training an image denoising autoencoder using Keras with Tensorflow
 Autoencoders are a type of Artificial Neural Networks that are used to perform a task of data encoding (representation learning).
 Autoencoders use same input data for input as well as output, crazy right?
 
-![intuition](/img/Autoencoder Denoising.png)
+![intuition](/img/AutoencoderDenoising.png?raw=true "Title")
 
 ### Code Layer
 Autoencoders work by adding a bottleneck in the network.
@@ -22,19 +22,19 @@ Autoencoders work well if correlations exist between input data and (performs po
 
 Great reference: “Intro to Autoencoders by Jeremy Jordan”
 
-![Code layer](/img/Autoencoder Denoising2.png)
+![Code layer](/img/AutoencoderDenoising2.png)
 
 ### Math behind Autoencoder
 Encoder: ``` h(x) = sigmoid (W * x + b) ```
 
 Decoder: ``` x̂ = sigmoid (W* * h(x) + c) ```
 
-![math](/img/Autoencoder Denoising3.png)
+![math](/img/AutoencoderDenoising3.png)
 
 ### Reconstruction Error
 Autoencoders objective is to minimize the reconstruction error which is the difference between the input X and the network output X̂. 
 
-![reconstruction](/img/Autoencoder Denoising4.png)
+![reconstruction](/img/AutoencoderDenoising4.png)
 
 
 
