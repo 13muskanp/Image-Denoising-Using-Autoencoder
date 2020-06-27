@@ -8,6 +8,11 @@ Building and training an image denoising autoencoder using Keras with Tensorflow
 - Compile and fit Autoencoder model to training data 
 - Assess the performance of trained Autoencoder using various KPIs 
 
+## Prerequisites
+- Basic programming experience in python
+- Basic understanding of Tensorflow
+- Working knowledge of Machine Learning and Deep Learning
+
 ## Understanding the theory 
 ### Autoencoder Intuition
 Autoencoders are a type of Artificial Neural Networks that are used to perform a task of data encoding (representation learning).
@@ -39,3 +44,30 @@ Autoencoders objective is to minimize the reconstruction error which is the diff
 
 
 Autoencoders dimensionality reduction (latent space) is quite similar to PCA (Principal Component Analysis) if linear activation functions are used.
+
+
+## Installing
+
+A step by step series of examples that tell you how to get a development env running
+
+### Step 1
+Download the prerequisites from the ``` requirements.txt``` file.
+
+``` pip install -r requirements.txt ```
+
+### Step 2
+Open ``` jupyter notebook ``` on your local host or you can use Google Colab too.
+
+### Step 3
+Follow the steps in the notebook if you want to train your own or you can simply run the notebook in this repo.
+
+## Output
+
+This is a side-by-side comparison of the input images with added noise and the reconstructed output from the network.
+
+![output](/img/AutoencoderDenoising5.png)
+
+
+## References to study in detail about related topics
+*[Autoencoders](https://towardsdatascience.com/applied-deep-learning-part-3-autoencoders-1c083af4d798)
+*[Deep Learning](https://www.datacamp.com/community/tutorials/deep-learning-python)
