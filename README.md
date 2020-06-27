@@ -25,7 +25,7 @@ Great reference: “Intro to Autoencoders by Jeremy Jordan”
 ![GitHub Logo](/img/Autoencoder Denoising2.png)
 
 ### Math behind Autoencoder
-Encoder: h(x) = ``` sigmoid (W * x + b) ```
+Encoder: ``` h(x) = sigmoid (W * x + b) ```
 
 Decoder: ``` x̂ = sigmoid (W* * h(x) + c) ```
 
